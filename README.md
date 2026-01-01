@@ -24,3 +24,13 @@ A simple, secure command-line interface (CLI) tool for generating strong, custom
    ```bash
    git clone https://github.com/your-username/password-manager-cli.git
    cd password-manager-cli
+
+password-manager-cli/
+├── config.py              # Configuration constants (file paths)
+├── logger.py              # Logging utility functions
+├── password_store.py      # Password loading/saving functions
+├── password_generator.py  # Password generation logic
+├── main.py                # Main entry point and CLI argument parsing
+├── passwords.json         # Auto-generated: Stores passwords (JSON)
+├── logs.txt               # Auto-generated: Action logs
+└── README.md              # This file
