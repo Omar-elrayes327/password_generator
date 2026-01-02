@@ -6,7 +6,7 @@ logs.txt
 __pycache__/
 *.pyc
 
-# Ignore environment files (if you add any in the future)
+# Ignore environment files (if it will be  added  in the future)
 .env
 
 # Ignore system files
